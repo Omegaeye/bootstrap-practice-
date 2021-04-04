@@ -11,18 +11,15 @@
 
   - [Authors](#authors)
   - [Getting Started](#getting-started)
-  - [Boostrap Gem vs Bootstrap Sass Gem](#bootstrap-gem-vs-bootstrap-sass)
-  - [Deployment](#deployment)
-  - [Built With](#built-with)
-  - [License](#license)
+  - [Boostrap Gem vs Bootstrap Sass Gem](#bootstrap-gem-vs-bootstrap-sass-gem)
   - [Acknowledgments](#acknowledgments)
 
-## Getting Started
-
-### GemFile
-
-
-
+## Resource Links
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+https://github.com/twbs/bootstrap-rubygem/blob/master/README.md
+https://github.com/twbs/bootstrap-sass
+https://github.com/glebm/popper_js-rubygem
+https://medium.com/@biancapower/how-to-add-bootstrap-4-to-a-rails-5-app-650118459a1e
 
 ### Prerequisites
 
@@ -38,7 +35,6 @@ gem install rails --version 5.2.4.3
     1. Clone Repo
     2. Install gem packages: `bundle install`
     3. Setup the database: `rails db:create`
-    4. Migrate and Seed the database: `rails db:(migrate,seed)`
 
 ## Bootstrap Gem vs Bootstrap Sass Gem
 
@@ -70,30 +66,6 @@ https://getbootstrap.com/docs/5.0/getting-started/introduction/
 
   * Easy and quick access to boostrap without bundle
   * Access to online library
-
-
-## Deployment
-  * This app is screened through Travis CI before deploying to Heroku.
-  * Need API Key from themoviedb.org
-      * create an account https://www.themoviedb.org/
-      * Apply for Api key https://www.themoviedb.org/settings/api
-      * Input Api Key to application.yml, run:  
-        ```
-        atom config/application.yml
-        ```
-        ![Screen Shot 2021-03-30 at 11 08 56 AM](https://user-images.githubusercontent.com/46826902/113028529-9c3f5080-9148-11eb-935a-d39b8076bf17.png)
-  * Hosted on: Heroku - https://morning-savannah-16693.herokuapp.com/
-
-## Built With
-
-  - Ruby/Rails
-  - javascript/jquery
-
-## License
-
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
 
 ## Acknowledgments
 
